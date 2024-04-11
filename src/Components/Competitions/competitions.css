@@ -1,0 +1,30 @@
+.competitions {
+    margin: 20px 30px;
+}
+
+.line1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line1 a {
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: var(--sucessColor);
+    border: 2px solid var(--sucessColor);
+}
+
+.line1 a:hover {
+    color: white;
+    background-color: var(--sucessColor);
+}
+
+.competition {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: var(--hoverColor);
+}

@@ -20,6 +20,13 @@
 
 :root {
   --primaryColor: #1A2044;
+  --hoverColor: #E5E7EE;
+  --sucessColor: #52BB0E;
+  --dangerColor: #CA0E0E;
+}
+
+body {
+  color: var(--primaryColor);
 }
 
 a {
