@@ -21,10 +21,19 @@
 }
 
 .competition {
-    display: flex;
     padding: 10px 20px;
-    align-items: center;
     border-radius: 10px;
-    justify-content: space-between;
     background-color: var(--hoverColor);
+}
+
+.competition .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

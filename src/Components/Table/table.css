@@ -1,0 +1,27 @@
+table {
+    width: 45%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  th {
+    padding: 8px;
+    color: white;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--primaryColor);
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
