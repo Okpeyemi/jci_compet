@@ -1,0 +1,23 @@
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+.log {
+    display: flex;
+}
+
+.log a {
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid var(--primaryColor);
+}
+
+.log a:hover  {
+    color: white;
+    background-color: var(--primaryColor);
+}
