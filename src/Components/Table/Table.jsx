@@ -1,27 +1,35 @@
 import React from 'react'
 import "./table.css"
 
-export const Table = () => {
+export const Table = ({nom}) => {
     const data = [
         {
             nom: "Team 1",
+            point: 800,
+            rang: 2
         },
         {
             nom: "Team 2",
+            point: 900,
+            rang: 1
         },
         {
             nom: "Team 3",
+            point: 600,
+            rang: 4
         },
         {
             nom: "Team 4",
+            point: 700,
+            rang: 3
         }
       ];
 
   return (
-    <table>
+    <table className='poppins-regular'>
         <thead>
             <tr>
-                <th>Noms équipes</th>
+                <th>{nom}</th>
             </tr>
         </thead>
         <tbody>

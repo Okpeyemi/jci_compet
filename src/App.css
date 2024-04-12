@@ -19,6 +19,7 @@
 }
 
 :root {
+  --backgroundColor: whitesmoke;
   --primaryColor: #1A2044;
   --hoverColor: #E5E7EE;
   --sucessColor: #52BB0E;
@@ -27,6 +28,7 @@
 
 body {
   color: var(--primaryColor);
+  background-color: var(--backgroundColor);
 }
 
 a {

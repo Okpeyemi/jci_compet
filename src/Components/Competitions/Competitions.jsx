@@ -30,10 +30,10 @@ export const Competitions = () => {
                 </a>
             </div>
             {toogleButton ? (<div className="content poppins-regular">
-                <Table/>
-                <Table/>
-                <Table/>
-                <Table/>
+                <Table nom={"Huitième de finale"}/>
+                <Table nom={"Quarts de finale"}/>
+                <Table nom={"Démi finale"}/>
+                <Table nom={"Finale"}/>
             </div>)  : ("")}
         </div>
     </div>
